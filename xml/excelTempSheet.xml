@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:html="http://www.w3.org/TR/REC-html40"><Styles
+><Style ss:ID="s23"><NumberFormat ss:Format="mm/dd/yyyy"/></Style
+><Style ss:ID="s71"><Alignment ss:Horizontal="Left" ss:Vertical="Bottom"
+/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="14" ss:Color="#ff0000"
+/></Style
+><Style ss:ID="s77"><Alignment ss:Vertical="Bottom"/><Borders
+/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#7F593F" ss:Bold="0"
+/><Interior ss:Color="#FFF6A8" ss:Pattern="Solid"/><NumberFormat/><Protection /></Style
+></Styles><Worksheet /></Workbook>

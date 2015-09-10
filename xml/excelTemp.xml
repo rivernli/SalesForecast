@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:x="urn:schemas-microsoft-com:office:excel"
+    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:html="http://www.w3.org/TR/REC-html40"
+><DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"
+ ><Author>Joe Cheng (Multek)</Author
+ ><LastAuthor>Joe Cheng (Multek)</LastAuthor
+ ><Created>2014-02-17T04:43:22Z</Created
+ ><LastSaved>2014-02-19T09:41:41Z</LastSaved
+ ><Version>12.00</Version
+ ></DocumentProperties
+ ><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"
+ ><WindowHeight>10005</WindowHeight
+ ><WindowWidth>10005</WindowWidth
+ ><WindowTopX>120</WindowTopX
+ ><WindowTopY>135</WindowTopY
+ ><ActiveSheet>1</ActiveSheet
+ ><ProtectStructure>False</ProtectStructure
+ ><ProtectWindows>False</ProtectWindows
+ ></ExcelWorkbook
+ ><Styles
+><Style ss:ID="s23"><NumberFormat ss:Format="mm/dd/yyyy"/></Style
+><Style ss:ID="s71"><Alignment ss:Horizontal="Left" ss:Vertical="Bottom"
+/><Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="14" ss:Color="#ff0000"
+/></Style
+></Styles><Worksheet ss:Name="Sheet1"><Table x:FullColumns="1" x:FullRows="1"><Row /></Table
+></Worksheet></Workbook>

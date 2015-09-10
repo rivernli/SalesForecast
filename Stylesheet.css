@@ -1,0 +1,65 @@
+﻿
+.no {font-size:12pt}
+
+A:LINK	{
+	color:#039;
+	text-decoration:none;
+	}
+A:VISITED{
+	color:#039;
+	text-decoration:none;
+	}
+A:HOVER{
+	color:#F60;
+	text-decoration:none;
+	}
+
+html, body {height:100%; width:100%; overflow:auto; margin:0; padding:0}    
+BODY, TD, span	{ color:#000;font:13px Verdana,microsoft sans serif;}
+
+#main {position:absolute; left:0; top:0; width:100%; height:100%; margin:0px; padding:0px;}
+
+span {font-size:13px;}
+#mmm {padding:3px 0px;}
+
+div#footer { left:0;width:100%; margin:0px; font:10px #555 bold;}
+
+.MasterTile {font-size:17px; color:#333333; font-weight:bold;}
+.standardTable {border-color:#cccccc; border-collapse:collapse; border-spacing:1px; border-style:solid; border:1px solid #cccccc;}
+.standardTable tr td {padding:2px 6px;border:1px solid #cccccc;}
+.standardTable th {border:1px solid #cccccc;}
+
+.titleName {text-align:center; padding:8px;}
+.titleName span {font-size:26px;font-weight:bolder; color:#444444;}
+
+
+.loginDiv { position:relative; background-image:url(images/login_head.gif); background-repeat:no-repeat;
+            background-position:top center; width:324px;}
+.loginDivBtm { background-image:url(images/login_head_btm.gif); 
+               background-position:bottom center; background-repeat:no-repeat;}
+               
+    #tr_quarter {display:none;}
+    #tr_period {display:none;}
+    #channel { list-style:none; margin:0; margin-left:5px; padding:0; height:25px; background-color:#ffffff; width:auto;}
+    #channel li{float:left; padding:0; height:25px; margin-right:0px; background:url(images/tabbar_left_bg.gif) left top no-repeat;}
+    #channel li a{display:block; line-height:21px; padding:0 15px; padding-top:4px; white-space:nowrap;background:url(images/tabbar_right_bg.gif) right top no-repeat;}
+    #channel .selected {float:left; padding:0; height:25px; margin-right:0px; background:url(images/tabbar_left_bg2.gif) left top no-repeat;}
+    #channel .selected a{display:block; font-weight:bold; line-height:21px; padding:0 15px; padding-top:4px; white-space:nowrap;background:url(images/tabbar_right_bg2.gif) right top no-repeat;}
+    
+    #table {border-color:#54A9E9; border-collapse:collapse; border-spacing:1; border-style:solid; width:100%;}
+    #table .head {background:url(images/search_title.gif);}
+    #table .head td{ fong-size:12px; font-weight:bold;}
+    #table td {padding:2px 4px;}
+    
+    .hide {display:none;}
+    
+.stbTbl {position:absolute; left:0px; top:0px; background-color:#ffffff; 
+         border-color:#aaaaaa; border-collapse:collapse; border-spacing:1; border-style:solid;
+         }
+.stbTbl tr {height:18px; vertical-align:top;}
+.stbTbl th {height:18px; padding:0px;}
+.stbTbl td {height:18px; padding:0px; text-align:right;}
+
+form {display:inline; margin:0}
+
+* html { position: absolute;}

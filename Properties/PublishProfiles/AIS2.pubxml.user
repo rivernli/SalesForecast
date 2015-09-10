@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\hkgnt117\d$\Deploy\deploy_test\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="acl.aspx">
+      <publishTime>09/10/2013 16:46:15</publishTime>
+    </File>
+    <File Include="adjustment.aspx">
+      <publishTime>08/26/2013 17:17:52</publishTime>
+    </File>
+    <File Include="adjustmentTopSide.aspx">
+      <publishTime>09/23/2013 16:51:43</publishTime>
+    </File>
+    <File Include="admini.aspx">
+      <publishTime>09/10/2013 14:18:34</publishTime>
+    </File>
+    <File Include="B2FForecast.aspx">
+      <publishTime>09/06/2013 10:16:23</publishTime>
+    </File>
+    <File Include="Baan_oem_control.aspx">
+      <publishTime>08/26/2013 17:17:52</publishTime>
+    </File>
+    <File Include="bin/Multek.dll">
+      <publishTime>09/23/2013 17:33:37</publishTime>
+    </File>
+    <File Include="bin/Multek.XmlSerializers.dll">
+      <publishTime>09/23/2013 17:33:38</publishTime>
+    </File>
+    <File Include="bin/SalesForecast.dll">
+      <publishTime>09/23/2013 17:33:39</publishTime>
+    </File>
+    <File Include="bin/SalesForecast.XmlSerializers.dll">
+      <publishTime>09/23/2013 16:39:38</publishTime>
+    </File>
+    <File Include="CEMForecast.aspx">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="CEMForecastUploadView.aspx">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/04/2013 15:06:54</publishTime>
+    </File>
+    <File Include="demo/gam_demo.swf">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="demo/gam_demo.swf.html">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="demo/gam_testing.swf">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="demo/gam_testing.swf.html">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="gam.js">
+      <publishTime>08/26/2013 17:17:32</publishTime>
+    </File>
+    <File Include="gamReporting.master">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="gamSetting.master">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="images/1s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/1x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/2s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/2x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/3s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/3x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/4s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/4x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/5s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/5x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/6s.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/6x.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/action_refresh.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/action_stop.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/add_new.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/adfooter.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/adfooter2.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/admultek_header.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/admultek_header2.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/admultek_meun.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/admultek_meun2.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/ajax-loader_6.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/ajax-loading.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/arrow_05.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/background.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/blank.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/blueboxtop06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/blueboxtopleft06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/blueboxtopright06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxbottom06102002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxbottomleft06102002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxbottomright06102002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxleft06102002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxright06102002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtop06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtopcenter.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtopleft.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtopleft06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtopright.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/boxtopright06202002.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/box_580bg.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/box_580hd.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/box_bottom_line.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/box_bottom_line2.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/c.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/calender.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/cancel.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/cancel2.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/chart_view.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/close_folder.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/dashboardIcon.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/dashboardItemIcon.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/dashboard_profile_temp.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/downarrow.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/edit.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/edit.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/faildoc.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/file_acrobat.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/flex_curve.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/folder.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/footer.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/footerleft.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/full_titleHead.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/header.png">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/ico-dl.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/ico-search_btn.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/icon_accept.gif">
+      <publishTime>08/26/2013 17:17:26</publishTime>
+    </File>
+    <File Include="images/icon_alert.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/icon_wand.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/Link.GIF">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/list_users.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/lock.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/login_head.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/login_head_btm.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/login_panel.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/Logo.bmp">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/logon.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/Multek-ID-PMS.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/Multek-ID-PMS.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/multek_header.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/multek_header2.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/multek_meun2.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/n.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-center.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-down.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-left.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-ref.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-right.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/nav-top.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/next.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/o.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/open_folder.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/page_deny.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/plant.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/plus.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/previous.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/ptype.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/p_title_back.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/ready_move.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/redarrow_down.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/redarrow_up.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/rightAns.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/Save.GIF">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sayConner.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/search_bk.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/search_title.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sortDown.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sortUp.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/star.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/submit.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sub_add.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sub_cancel.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sub_del.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sub_edit.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/sub_ok.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tabbar_left_bg.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tabbar_left_bg2.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tabbar_right_bg.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tabbar_right_bg2.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tab_simple.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/tab_simple2.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/test.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/title_content.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/title_header.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/user.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/usrAdd.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/usrCancel.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/usrDel.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/usrEdit.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/usrSave.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/will_move.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/worldLink.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/wrongAns.gif">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="images/yellow_folder.png">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="Joewa.js">
+      <publishTime>08/26/2013 17:17:32</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="logout.aspx">
+      <publishTime>08/26/2013 17:17:48</publishTime>
+    </File>
+    <File Include="MasterPage.master">
+      <publishTime>09/09/2013 14:38:16</publishTime>
+    </File>
+    <File Include="oem_control.aspx">
+      <publishTime>09/09/2013 16:18:44</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/23/2013 17:33:44</publishTime>
+    </File>
+    <File Include="ReportB2FView.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="ReportCompareFCbyPeriod.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="ReportFCP2P.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="SalesmanForecastSubmit.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="salesmanRelation.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="SalesmenForecast5.aspx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="SalesmenForecast6.aspx">
+      <publishTime>09/16/2013 22:19:23</publishTime>
+    </File>
+    <File Include="services/forecastWS.asmx">
+      <publishTime>08/26/2013 17:17:46</publishTime>
+    </File>
+    <File Include="services/salesman.asmx">
+      <publishTime>08/26/2013 17:17:44</publishTime>
+    </File>
+    <File Include="spreadsheetTable.js">
+      <publishTime>08/26/2013 17:17:34</publishTime>
+    </File>
+    <File Include="Stylesheet.css">
+      <publishTime>08/26/2013 17:17:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/23/2013 17:30:24</publishTime>
+    </File>
+    <File Include="xml/excelTemp.xml">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="xml/excelTemp.xslt">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+    <File Include="xml/excelTempSheet.xml">
+      <publishTime>08/26/2013 17:17:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

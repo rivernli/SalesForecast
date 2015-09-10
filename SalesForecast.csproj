@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AFA1C34-9DC6-474B-B5E1-B4B5E2DD8F78}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SalesForecast</RootNamespace>
+    <AssemblyName>SalesForecast</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Multek, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SGPv2(addLog)\SGP\bin\Multek.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="acl.aspx" />
+    <Content Include="adjustment.aspx" />
+    <Content Include="adjustmentTopSide.aspx" />
+    <Content Include="admini.aspx" />
+    <Content Include="B2FForecast.aspx" />
+    <Content Include="Baan_oem_control.aspx" />
+    <Content Include="CEMForecast.aspx" />
+    <Content Include="CEMForecastUploadView.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="demo\gam_demo.swf" />
+    <Content Include="demo\gam_demo.swf.html" />
+    <Content Include="demo\gam_testing.swf" />
+    <Content Include="demo\gam_testing.swf.html" />
+    <Content Include="gam.js" />
+    <Content Include="images\1s.gif" />
+    <Content Include="images\1x.png" />
+    <Content Include="images\2s.gif" />
+    <Content Include="images\2x.png" />
+    <Content Include="images\3s.gif" />
+    <Content Include="images\3x.png" />
+    <Content Include="images\4s.gif" />
+    <Content Include="images\4x.png" />
+    <Content Include="images\5s.gif" />
+    <Content Include="images\5x.png" />
+    <Content Include="images\6s.gif" />
+    <Content Include="images\6x.png" />
+    <Content Include="images\action_refresh.gif" />
+    <Content Include="images\action_stop.gif" />
+    <Content Include="images\add_new.png" />
+    <Content Include="images\adfooter.png" />
+    <Content Include="images\adfooter2.png" />
+    <Content Include="images\admultek_header.png" />
+    <Content Include="images\admultek_header2.png" />
+    <Content Include="images\admultek_meun.png" />
+    <Content Include="images\admultek_meun2.png" />
+    <Content Include="images\ajax-loader_6.gif" />
+    <Content Include="images\ajax-loading.gif" />
+    <Content Include="images\arrow_05.gif" />
+    <Content Include="images\background.gif" />
+    <Content Include="images\blank.png" />
+    <Content Include="images\blueboxtop06202002.gif" />
+    <Content Include="images\blueboxtopleft06202002.gif" />
+    <Content Include="images\blueboxtopright06202002.gif" />
+    <Content Include="images\boxbottom06102002.gif" />
+    <Content Include="images\boxbottomleft06102002.gif" />
+    <Content Include="images\boxbottomright06102002.gif" />
+    <Content Include="images\boxleft06102002.gif" />
+    <Content Include="images\boxright06102002.gif" />
+    <Content Include="images\boxtop06202002.gif" />
+    <Content Include="images\boxtopcenter.gif" />
+    <Content Include="images\boxtopleft.gif" />
+    <Content Include="images\boxtopleft06202002.gif" />
+    <Content Include="images\boxtopright.gif" />
+    <Content Include="images\boxtopright06202002.gif" />
+    <Content Include="images\box_580bg.png" />
+    <Content Include="images\box_580hd.png" />
+    <Content Include="images\box_bottom_line.gif" />
+    <Content Include="images\box_bottom_line2.gif" />
+    <Content Include="images\c.gif" />
+    <Content Include="images\calender.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\cancel2.png" />
+    <Content Include="images\chart_view.png" />
+    <Content Include="images\close_folder.png" />
+    <Content Include="images\dashboardIcon.png" />
+    <Content Include="images\dashboardItemIcon.png" />
+    <Content Include="images\dashboard_profile_temp.png" />
+    <Content Include="images\downarrow.gif" />
+    <Content Include="images\edit.gif" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\faildoc.gif" />
+    <Content Include="images\file_acrobat.gif" />
+    <Content Include="images\flex_curve.gif" />
+    <Content Include="images\folder.png" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\footerleft.png" />
+    <Content Include="images\full_titleHead.png" />
+    <Content Include="images\header.png" />
+    <Content Include="images\ico-dl.gif" />
+    <Content Include="images\ico-search_btn.gif" />
+    <Content Include="images\icon_accept.gif" />
+    <Content Include="images\icon_alert.gif" />
+    <Content Include="images\icon_wand.gif" />
+    <Content Include="images\Link.GIF" />
+    <Content Include="images\list_users.gif" />
+    <Content Include="images\lock.png" />
+    <Content Include="images\login_head.gif" />
+    <Content Include="images\login_head_btm.gif" />
+    <Content Include="images\login_panel.png" />
+    <Content Include="images\Logo.bmp" />
+    <Content Include="images\logon.gif" />
+    <Content Include="images\Multek-ID-PMS.gif" />
+    <Content Include="images\Multek-ID-PMS.png" />
+    <Content Include="images\multek_header.png" />
+    <Content Include="images\multek_header2.png" />
+    <Content Include="images\multek_meun2.png" />
+    <Content Include="images\n.gif" />
+    <Content Include="images\nav-center.png" />
+    <Content Include="images\nav-down.png" />
+    <Content Include="images\nav-left.png" />
+    <Content Include="images\nav-ref.png" />
+    <Content Include="images\nav-right.png" />
+    <Content Include="images\nav-top.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\o.gif" />
+    <Content Include="images\open_folder.png" />
+    <Content Include="images\page_deny.gif" />
+    <Content Include="images\plant.png" />
+    <Content Include="images\plus.gif" />
+    <Content Include="images\previous.png" />
+    <Content Include="images\ptype.gif" />
+    <Content Include="images\p_title_back.gif" />
+    <Content Include="images\ready_move.png" />
+    <Content Include="images\redarrow_down.gif" />
+    <Content Include="images\redarrow_up.gif" />
+    <Content Include="images\rightAns.gif" />
+    <Content Include="images\Save.GIF" />
+    <Content Include="images\sayConner.png" />
+    <Content Include="images\search_bk.gif" />
+    <Content Include="images\search_title.gif" />
+    <Content Include="images\sortDown.png" />
+    <Content Include="images\sortUp.png" />
+    <Content Include="images\star.gif" />
+    <Content Include="images\submit.png" />
+    <Content Include="images\sub_add.png" />
+    <Content Include="images\sub_cancel.png" />
+    <Content Include="images\sub_del.png" />
+    <Content Include="images\sub_edit.png" />
+    <Content Include="images\sub_ok.png" />
+    <Content Include="images\tabbar_left_bg.gif" />
+    <Content Include="images\tabbar_left_bg2.gif" />
+    <Content Include="images\tabbar_right_bg.gif" />
+    <Content Include="images\tabbar_right_bg2.gif" />
+    <Content Include="images\tab_simple.png" />
+    <Content Include="images\tab_simple2.png" />
+    <Content Include="images\test.gif" />
+    <Content Include="images\title_content.png" />
+    <Content Include="images\title_header.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\usrAdd.png" />
+    <Content Include="images\usrCancel.png" />
+    <Content Include="images\usrDel.png" />
+    <Content Include="images\usrEdit.png" />
+    <Content Include="images\usrSave.png" />
+    <Content Include="images\will_move.png" />
+    <Content Include="images\worldLink.png" />
+    <Content Include="images\wrongAns.gif" />
+    <Content Include="images\yellow_folder.png" />
+    <Content Include="Joewa.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="OEMsList.aspx" />
+    <Content Include="oem_control.aspx" />
+    <Content Include="ReportB2FView.aspx" />
+    <Content Include="ReportCompareFCbyPeriod.aspx" />
+    <Content Include="ReportFCP2P.aspx" />
+    <Content Include="SalesmanForecastSubmit.aspx" />
+    <Content Include="salesmanRelation.aspx" />
+    <Content Include="SalesmenForecast5.aspx" />
+    <Content Include="SalesmenForecast6.aspx" />
+    <Content Include="services\forecastWS.asmx" />
+    <Content Include="services\salesman.asmx" />
+    <Content Include="spreadsheetTable.js" />
+    <Content Include="Stylesheet.css" />
+    <Content Include="Web.config" />
+    <Content Include="xml\excelTemp.xml" />
+    <Content Include="xml\excelTemp.xslt" />
+    <Content Include="xml\excelTempSheet.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acl.aspx.cs">
+      <DependentUpon>acl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="acl.aspx.designer.cs">
+      <DependentUpon>acl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adjustment.aspx.cs">
+      <DependentUpon>adjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adjustment.aspx.designer.cs">
+      <DependentUpon>adjustment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adjustmentTopSide.aspx.cs">
+      <DependentUpon>adjustmentTopSide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adjustmentTopSide.aspx.designer.cs">
+      <DependentUpon>adjustmentTopSide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admini.aspx.cs">
+      <DependentUpon>admini.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admini.aspx.designer.cs">
+      <DependentUpon>admini.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="B2FForecast.aspx.designer.cs">
+      <DependentUpon>B2FForecast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Baan_oem_control.aspx.designer.cs">
+      <DependentUpon>Baan_oem_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CEMForecast.aspx.designer.cs">
+      <DependentUpon>CEMForecast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CEMForecastUploadView.aspx.designer.cs">
+      <DependentUpon>CEMForecastUploadView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gamReporting.master.designer.cs">
+      <DependentUpon>gamReporting.master</DependentUpon>
+    </Compile>
+    <Compile Include="gamSetting.master.designer.cs">
+      <DependentUpon>gamSetting.master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="OEMsList.aspx.cs">
+      <DependentUpon>OEMsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OEMsList.aspx.designer.cs">
+      <DependentUpon>OEMsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oem_control.aspx.designer.cs">
+      <DependentUpon>oem_control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Old_App_Code\Forecast.cs" />
+    <Compile Include="Old_App_Code\nUser.cs" />
+    <Compile Include="Old_App_Code\OEMBaan.cs" />
+    <Compile Include="Old_App_Code\Reports.cs" />
+    <Compile Include="Old_App_Code\SalesmanCtrl.cs" />
+    <Compile Include="B2FForecast.aspx.cs">
+      <DependentUpon>B2FForecast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Baan_oem_control.aspx.cs">
+      <DependentUpon>Baan_oem_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CEMForecast.aspx.cs">
+      <DependentUpon>CEMForecast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CEMForecastUploadView.aspx.cs">
+      <DependentUpon>CEMForecastUploadView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gamReporting.master.cs">
+      <DependentUpon>gamReporting.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gamSetting.master.cs">
+      <DependentUpon>gamSetting.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oem_control.aspx.cs">
+      <DependentUpon>oem_control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportB2FView.aspx.cs">
+      <DependentUpon>ReportB2FView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportB2FView.aspx.designer.cs">
+      <DependentUpon>ReportB2FView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompareFCbyPeriod.aspx.cs">
+      <DependentUpon>ReportCompareFCbyPeriod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportCompareFCbyPeriod.aspx.designer.cs">
+      <DependentUpon>ReportCompareFCbyPeriod.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportFCP2P.aspx.cs">
+      <DependentUpon>ReportFCP2P.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportFCP2P.aspx.designer.cs">
+      <DependentUpon>ReportFCP2P.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesmanForecastSubmit.aspx.cs">
+      <DependentUpon>SalesmanForecastSubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesmanForecastSubmit.aspx.designer.cs">
+      <DependentUpon>SalesmanForecastSubmit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="salesmanRelation.aspx.cs">
+      <DependentUpon>salesmanRelation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="salesmanRelation.aspx.designer.cs">
+      <DependentUpon>salesmanRelation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesmenForecast5.aspx.cs">
+      <DependentUpon>SalesmenForecast5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesmenForecast5.aspx.designer.cs">
+      <DependentUpon>SalesmenForecast5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SalesmenForecast6.aspx.cs">
+      <DependentUpon>SalesmenForecast6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesmenForecast6.aspx.designer.cs">
+      <DependentUpon>SalesmenForecast6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\forecastWS.cs">
+      <DependentUpon>forecastWS.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="services\salesman.cs">
+      <DependentUpon>salesman.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\AIS2.pubxml" />
+    <None Include="Properties\PublishProfiles\forecast.pubxml" />
+    <None Include="Properties\PublishProfiles\GAM.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="gamReporting.master" />
+    <Content Include="gamSetting.master" />
+    <Content Include="MasterPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62242</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

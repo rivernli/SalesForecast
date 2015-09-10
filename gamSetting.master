@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" Inherits="gamSetting" Codebehind="gamSetting.master.cs" %>
+
+<asp:Content ID="masterHead" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder ID="head2" runat="server" >
+    <style type="text/css">
+    .mex { padding:3px 3px 3px 0px; background-color:#ffffff;}
+    .mexed {font-weight:bold; font-size:14px;}
+    </style>
+    </asp:ContentPlaceHolder>
+</asp:Content>
+        <asp:Content ID="tableContent" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+        </asp:Content>
+
